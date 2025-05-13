@@ -31,10 +31,14 @@ namespace EntityFrameworkEducation.Controllers
                          {
                              Id = product.Id,
                              CategoryId = product.CategoryId,
+                             Name = product.Name,
                              CategoryName = category.Name,
                              Price = product.Price,
 
                          };
+
+            var result21 = context.Products.Find(2);
+
 
             return Ok(result.AsQueryable());
 
