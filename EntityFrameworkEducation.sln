@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkEducation", "EntityFrameworkEducation\EntityFrameworkEducation.csproj", "{D690D417-0BF1-4014-8AFC-3CCCEB7A6780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeFirst", "EFCodeFirst\EFCodeFirst.csproj", "{DF64353C-A8BF-4DE0-BA71-1FBC986042CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCodeFirst", "EFCodeFirst\EFCodeFirst.csproj", "{DF64353C-A8BF-4DE0-BA71-1FBC986042CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbContextScaffold", "DbContextScaffold\DbContextScaffold.csproj", "{3421C68B-3F75-411D-9E50-D23F5BFFB074}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DF64353C-A8BF-4DE0-BA71-1FBC986042CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF64353C-A8BF-4DE0-BA71-1FBC986042CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF64353C-A8BF-4DE0-BA71-1FBC986042CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3421C68B-3F75-411D-9E50-D23F5BFFB074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3421C68B-3F75-411D-9E50-D23F5BFFB074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3421C68B-3F75-411D-9E50-D23F5BFFB074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3421C68B-3F75-411D-9E50-D23F5BFFB074}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
