@@ -13,6 +13,8 @@ namespace EFCodeFirst.Model
 
         public DbSet<Product> Products { get; set; }
 
+        public DbSet<Category> Categories { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -28,6 +30,12 @@ namespace EFCodeFirst.Model
 
             modelBuilder.Entity<Product>()
                 .Property(p => p.Price).IsRequired().HasColumnType("money");
+
+
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CategoryConfiguration).Assembly);
+
+
+
         }
     }
 }
